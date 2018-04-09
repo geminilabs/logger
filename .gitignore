@@ -1,0 +1,6 @@
+*~
+*.log
+languages
+node_modules
+vendor
+!.git*

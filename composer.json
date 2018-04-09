@@ -1,0 +1,42 @@
+{
+  "name": "geminilabs/logger",
+  "type": "wordpress-plugin",
+  "description": "Provides a logger for development",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "logger",
+    "log",
+    "development",
+    "debug",
+    "debugging"
+  ],
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Paul Ryley",
+      "email": "paul@geminilabs.io"
+    }
+  ],
+  "archive": {
+    "exclude": [
+      "/tests",
+      "/*.js",
+      "/*.json",
+      "/*.lock",
+      "/*.md",
+      "/*.sh",
+      "/*.xml",
+      "/*.yml",
+      "/.*"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.6"
+  }
+}

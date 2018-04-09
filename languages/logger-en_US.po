@@ -1,0 +1,89 @@
+# Copyright (C) 2018 logger
+# This file is distributed under the same license as the logger package.
+msgid ""
+msgstr ""
+"Project-Id-Version: logger\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Gemini Labs <support@geminilabs.io>\n"
+"Last-Translator: Paul Ryley <paul@geminilabs.io>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_"
+"attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Searchpathexcluded-0: *.js\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: qps-ploc\n"
+
+#: activate.php:124
+msgid "The %s plugin was deactivated."
+msgstr "The %s plugin was deactivated."
+
+#: activate.php:125
+msgid "Sorry, this plugin requires %s or greater in order to work properly."
+msgstr "Sorry, this plugin requires %s or greater in order to work properly."
+
+#: activate.php:126
+msgid ""
+"Please contact your hosting provider or server administrator to upgrade the "
+"version of PHP on your server (your server is running PHP version %s), or "
+"try to find an alternative plugin."
+msgstr ""
+"Please contact your hosting provider or server administrator to upgrade the "
+"version of PHP on your server (your server is running PHP version %s), or "
+"try to find an alternative plugin."
+
+#: activate.php:127
+msgid "PHP version"
+msgstr "PHP version"
+
+#: activate.php:128
+msgid "WordPress version"
+msgstr "WordPress version"
+
+#: activate.php:129
+msgid "Update WordPress"
+msgstr "Update WordPress"
+
+#: plugin/Application.php:111, plugin/Application.php:112, plugin/Application.php:160
+msgid "Logger"
+msgstr "Logger"
+
+#: plugin/Application.php:145
+msgid "The log was cleared."
+msgstr "The log was cleared."
+
+#: views/settings.php:6
+msgid ""
+"The benefit of using the filter over the function is that the filter will "
+"not break your site if the Logger plugin is not installed or inactive."
+msgstr ""
+"The benefit of using the filter over the function is that the filter will "
+"not break your site if the Logger plugin is not installed or inactive."
+
+#: views/settings.php:8
+msgid "The default log type for the %s function is %s, it is also chainable."
+msgstr "The default log type for the %s function is %s, it is also chainable."
+
+#: views/settings.php:10
+msgid "Available log types are:"
+msgstr "Available log types are:"
+
+#: views/settings.php:12
+msgid "Usage examples:"
+msgstr "Usage examples:"
+
+#: views/settings.php:21
+msgid "Disable Logging"
+msgstr "Disable Logging"
+
+#: views/settings.php:21
+msgid "Enable Logging"
+msgstr "Enable Logging"
+
+#: views/settings.php:29
+msgid "Clear Log"
+msgstr "Clear Log"
