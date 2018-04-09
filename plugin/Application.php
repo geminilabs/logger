@@ -107,7 +107,7 @@ final class Application
 	public function registerMenu()
 	{
 		add_submenu_page(
-			'options-general.php',
+			'tools.php',
 			__( 'Logger', 'logger' ),
 			__( 'Logger', 'logger' ),
 			'manage_options',

@@ -6,7 +6,7 @@
  *
  * Plugin Name: Logger
  * Description: Provides a logger for WordPress development
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Paul Ryley
  * Author URI:  https://profiles.wordpress.org/pryley#content-plugins
  * License:     GPL3
