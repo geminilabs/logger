@@ -87,7 +87,7 @@ final class Application
 	 */
 	public function path( $file = '' )
 	{
-		return plugin_dir_path( $this->file ).ltrim( trim( $file ), '/' );
+		return realpath( plugin_dir_path( $this->file ).ltrim( trim( $file ), '/' ));
 	}
 
 	/**
