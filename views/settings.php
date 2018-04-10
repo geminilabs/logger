@@ -3,13 +3,13 @@
 <div class="wrap">
 	<h1><?= $title; ?></h1>
 	<p>
-		<?= __( 'The benefit of using the filter over the function is that the filter will not break your site if the Logger plugin is not installed or inactive.', 'logger' ); ?>
+		<?= __( 'The benefit of using the filter over the function is that it will not break your site if the Logger plugin is inactive or not installed.', 'logger' ); ?>
 		<br>
 		<?= sprintf( __( 'The default log type for the %s function is %s, it is also chainable.', 'logger' ), '<code>gllog</code>', '<em>debug</em>' ); ?>
 		<br>
 		<?= __( 'Available log types are:', 'logger' ); ?> <code>emergency|alert|critical|error|warning|notice|info|debug</code>
 	</p>
-	<p><?= __( 'Usage examples:', 'logger' ); ?></p>
+	<h2><?= __( 'Usage examples:', 'logger' ); ?></h2>
 	<pre>gllog($data);
 gllog($data)->error($data);
 gllog()->error($data);
@@ -22,7 +22,7 @@ apply_filters('logger', $data, $optional_log_type);</pre>
 	</form>
 	<?php if( wp_validate_boolean( $settings->enabled )) : ?>
 	<br>
-	<form method="post" class="float-left">
+	<form method="post">
 		<textarea class="large-text code" rows="20" id="log-file" onclick="this.select()" readonly><?= $log; ?></textarea>
 		<?php wp_nonce_field( 'clear-log' ); ?>
 		<input type="hidden" name="<?= $id; ?>[action]" value="clear-log">

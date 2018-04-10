@@ -5,7 +5,7 @@ Tags: logger, log, development, debug
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 4.9
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -30,7 +30,17 @@ Download the Logger plugin and upload it to your server. The WordPress codex con
 
 == Screenshots ==
 
+1. A view of the Logger plugin page
+
 == Changelog ==
+
+= 1.0.2 (2018-04-10) =
+
+- Updated the plugin activation class
+
+= 1.0.1 (2018-04-09) =
+
+- Moved the plugin submenu to Tools
 
 = 1.0.0 (2018-04-07) =
 

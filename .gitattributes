@@ -4,4 +4,6 @@
 /*.json export-ignore
 /*.lock export-ignore
 /*.md   export-ignore
+/*.sh  export-ignore
 /*.yml  export-ignore
+/assets export-ignore

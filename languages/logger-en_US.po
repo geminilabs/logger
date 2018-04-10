@@ -58,11 +58,11 @@ msgstr "The log was cleared."
 
 #: views/settings.php:6
 msgid ""
-"The benefit of using the filter over the function is that the filter will "
-"not break your site if the Logger plugin is not installed or inactive."
+"The benefit of using the filter over the function is that it will not break "
+"your site if the Logger plugin is inactive or not installed."
 msgstr ""
-"The benefit of using the filter over the function is that the filter will "
-"not break your site if the Logger plugin is not installed or inactive."
+"The benefit of using the filter over the function is that it will not break "
+"your site if the Logger plugin is inactive or not installed."
 
 #: views/settings.php:8
 msgid "The default log type for the %s function is %s, it is also chainable."
