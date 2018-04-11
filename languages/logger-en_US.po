@@ -48,11 +48,11 @@ msgstr "WordPress version"
 msgid "Update WordPress"
 msgstr "Update WordPress"
 
-#: plugin/Application.php:111, plugin/Application.php:112, plugin/Application.php:160
+#: plugin/Application.php:110, plugin/Application.php:111, plugin/Application.php:159
 msgid "Logger"
 msgstr "Logger"
 
-#: plugin/Application.php:145
+#: plugin/Application.php:144
 msgid "The log was cleared."
 msgstr "The log was cleared."
 

@@ -6,7 +6,7 @@
  *
  * Plugin Name: Logger
  * Description: Provides a logger for WordPress development
- * Version:     1.0.2
+ * Version:     1.0.3
  * Author:      Paul Ryley
  * Author URI:  https://profiles.wordpress.org/pryley#content-plugins
  * License:     GPL3
@@ -25,12 +25,11 @@ if( GL_Plugin_Check::shouldDeactivate( __FILE__ ))return;
 GeminiLabs\Logger\Application::load()->init();
 
 /**
- * @param mixed $message
  * @return GeminiLabs\Logger\Log
  */
-function gllog( $message = null ) {
-	$logger = GeminiLabs\Logger\Application::load()->log->logger();
+function gllog() {
+	$app = GeminiLabs\Logger\Application::load();
 	return func_num_args() > 0
-		? $logger->debug( func_get_arg(0) )
-		: $logger;
+		? call_user_func_array( [$app, 'initLogger'], ['logger', func_get_arg(0)] )
+		: $app->log->logger();
 }

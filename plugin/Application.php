@@ -58,15 +58,13 @@ final class Application
 
 	/**
 	 * Usage: apply_filters( 'logger', $data, $optional_log_type );
-	 * @return void
+	 * @return static
 	 */
 	public function initLogger()
 	{
-		if( func_get_arg(0) != static::ID )return;
-		$type = func_get_arg(2)
-			? func_get_arg(2)
-			: 'debug';
-		$this->log->log( $type, func_get_arg(1) );
+		$args = func_get_args() + ['', null, 'debug'];
+		if( $args[0] !== static::ID || is_null( $args[1] ))return;
+		return $this->log->log( $args[2], $args[1] );
 	}
 
 	/**
@@ -87,7 +85,8 @@ final class Application
 	 */
 	public function path( $file = '' )
 	{
-		return realpath( plugin_dir_path( $this->file ).ltrim( trim( $file ), '/' ));
+		$basepath = trailingslashit( realpath( plugin_dir_path( $this->file )));
+		return $basepath.ltrim( trim( $file ), '/' );
 	}
 
 	/**

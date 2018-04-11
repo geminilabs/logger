@@ -115,7 +115,6 @@ class Log
 	/**
 	 * @param mixed $level
 	 * @param string $message
-	 * @param array $context
 	 * @return static
 	 */
 	public function log( $level, $message, array $context = [] )

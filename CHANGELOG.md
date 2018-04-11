@@ -18,6 +18,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Security
 
+## [1.0.3] - 2018-04-11
+
+### Fixed
+- Fix PHP warning
+- Fix the logfile path
+
 ## [1.0.2] - 2018-04-10
 
 ### Fixed
